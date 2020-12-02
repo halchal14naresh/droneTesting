@@ -33,7 +33,7 @@ class TestClass1:
         client.user = 'dar20409@bcaoo.com'
         client.password = 'Selenium@123'
         run_id =2
-        case_id =1
+        case_id =3
         status_id =1
         msg = "This is working fine marked Passed By Selenium Thanks NKY"
         result = client.send_post(
