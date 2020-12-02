@@ -34,7 +34,7 @@ class TestClass1:
         client.password = 'Selenium@123'
         run_id =2
         case_id =1
-        status_id =5
+        status_id =1
         msg = "This is working fine marked Passed By Selenium Thanks NKY"
         result = client.send_post(
             'add_result_for_case/%s/%s'%(run_id,case_id),
